@@ -2,5 +2,6 @@ jdk:
   - openjdk8
 
 before_install:
+  - sdk update
   - sdk install java 8.0.382-open
   - sdk use java 8.0.382-open
