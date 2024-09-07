@@ -3,5 +3,7 @@ jdk:
 
 before_install:
   - sdk update
+  - sdk install java 17.0.12-oracle 
+  - sdk use java 17.0.12-oracle
   - sdk install java 17.0.8-open
   - sdk use java 17.0.8-open
